@@ -5,7 +5,7 @@ public class HomeWork3_4 {
         int[][] arr2D = new int[4][4];
         for (int i = 0; i < arr2D.length; i++) {
             for (int j = 0; j < arr2D[i].length; j++) {
-                if (i == j || i + j == 3) {
+                if (i == j || i + j == arr2D.length - 1) {
                     arr2D[i][j] = 1;
                 }
                 System.out.print(arr2D[i][j] + " ");

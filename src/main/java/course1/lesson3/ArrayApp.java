@@ -8,9 +8,9 @@ public class ArrayApp {
         int[] array = new int[5];
         array[2] = 24;
         array[array.length - 1] = 8;
-        for (int i = 0; i < array.length; i++) {
-            array[i] = 100 + i * 100;
-        }
+       // for (int i = 0; i < array.length; i++) {
+           // array[i] = 100 + i * 100;
+       // }
         int[] arr = {1, 3, 4, 5, 6};
         printArray(array);
         printArray(arr);
