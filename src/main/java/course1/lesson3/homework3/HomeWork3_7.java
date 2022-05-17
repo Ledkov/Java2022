@@ -3,10 +3,9 @@ package course1.lesson3.homework3;
 public class HomeWork3_7 {
 
     public static void main(String[] args) {
-        int[] arr1 = {4, 4, 0, 4, 4};
+        int[] arr1 = {1, 0, 7, 4, 4};
         System.out.println(balanceCheck(arr1));
         }
-
         public static boolean balanceCheck(int[] arr) {
         int sumLeft = 0;
         int sumRight = 0;
